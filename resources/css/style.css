@@ -1,4 +1,25 @@
-.header{
+body {
+  margin: 0;
+  font-family: "Georgia" , serif;
+  font-size: 17px;
+  color: black;
+}
+
+
+a {
+  color: black;
+}
+
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+header{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,36 +54,19 @@
   margin-left: 10px;
 }
 
-nav {
-  display:inline-block;
-  align-items: center;
-}
 
-a {
-  color: black;
-}
-
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-  margin-left: 10px;
-}
 
 header nav {
-  padding-right: 40px;
+margin-left: auto;
+margin-right: (amount)px;
 }
 
-h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 30px;
-  font-weight: bold;
-}
 
 .content {
   display: flex;
-  width: 1500px;
+  width: 1200px;
   padding-top: 120px;
+  margin: 0 auto 78px auto;
   }
 
 
@@ -143,7 +147,6 @@ h2 {
 
 .story{
   font-family: Georgia;
-  font-size: 17px;
   color: black;
   width: 300px;
 
